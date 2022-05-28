@@ -12,6 +12,8 @@
   margin-top: 10px;
 }
 .logoName {
+  font-family: 'Gwendolyn', cursive;
+font-family: 'Varela Round', sans-serif;
   display: inline-block;
   margin-top: 10px;
   font-size: 1.5em;
@@ -20,7 +22,6 @@
   margin-inline-start: 10px;
   margin-inline-end: 0px;
   text-align: center;
-  font-weight: bold;
 }
 
 .headButtons ul {
@@ -63,6 +64,7 @@
   display: inline;
   margin-left: 100px;
   margin-top: 0px;
+  box-shadow: 1px 1px 10px 2px gray;
 }
 .loginBtn:hover {
   color: white;
@@ -79,9 +81,91 @@
   display: inline;
   margin-left: 10px;
   margin-top: 0px;
+  box-shadow: 1px 1px 10px 2px gray;
 }
 .loginBtn2:hover {
   color: white;
   font-weight: bolder;
   background-color: green;
+}
+
+/*css for Intro Component*/
+
+.introMain {
+  background: url(https://i.ibb.co/NxWZFt0/Farmer-analyzing-data-on-eco-farming.jpg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 1000px;
+display: flex;
+  height: 550px;
+  width: 1440px;
+  margin-top: 10px;
+  
+}
+
+.tag{
+  font-family: 'Gwendolyn', cursive;
+font-family: 'Varela Round', sans-serif;
+ margin-top: 20px;
+ display: block;
+
+}
+
+.startBtn{
+  appearance: auto;
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: 900;
+    font-stretch: ;
+    font-size: 20px ;
+    font-family: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: none;
+    border-color: buttonborder;
+    border-image: initial;
+    height: 70px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: #f9d923; 
+    margin-left: 160px  ;
+    margin-top: 20px;
+    color;
+    box-shadow: 1px 1px 10px 2px gray;
+
+}
+.startBtn:hover{
+  background-color: green;
+  color: white;
+  box-shadow: 2px 2px 10px 10px;
+}
+
+.intro2{
+  display: block;
+}
+.intro2 img{
+  height: 350px;
+  opacity: 0.7;
+  margin-left: 40px;
+  margin-top: 40px;
+  visibility: hidden;
 }
