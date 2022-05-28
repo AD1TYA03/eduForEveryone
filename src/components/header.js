@@ -11,6 +11,9 @@ function header() {
             <button>Home</button>
           </li>
           <li>
+            <button>About</button>
+          </li>
+          <li>
             <button>Schedule</button>
           </li>
           <li>
