@@ -327,3 +327,55 @@
   width: 1440px;
   margin-top: 50px;
 }
+
+/* CSS FOR SPONSOR */
+.sponsorCards {
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-bottom: 100px;
+}
+.sponsorCards div {
+  display: inline;
+  padding-right: 30px;
+}
+.sponsorCards img {
+  height: 100px;
+  display: inline;
+}
+
+/* CSS FOR CONTACT */
+
+.contactMain img {
+  height: 400px;
+  display: inline;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+.cimg {
+  display: flex;
+}
+.contactMain button {
+  height: 50px;
+  font-weight: 400;
+
+  text-align: center;
+  background-color: transparent;
+  border-color: grey;
+  border-radius: 6px;
+  border: 0.5 0.5 0.5 0.5;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contactMain button:hover {
+  background-color: rgb(182, 88, 206);
+  color: white;
+  border-radius: 6px;
+}
+
+.contactBtn {
+  display: flex;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 215px;
+}
