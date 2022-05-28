@@ -4,7 +4,7 @@ function header() {
   return (
     <div className="headerMain">
       <img src="https://i.ibb.co/fpgM7Qw/masterji.png" alt="logo"></img>
-      <h1 className="logoName">E MASTARJI</h1>
+      <h1 className="logoName">e-MASTARJI</h1>
       <div className="headButtons">
         <ul>
           <li>

@@ -25,6 +25,7 @@
   margin-inline-start: 10px;
   margin-inline-end: 0px;
   text-align: center;
+  font-size: 18px;
 }
 
 .headButtons ul {
@@ -193,15 +194,130 @@
 
 /* CSS for About.js*/
 .toolsMain {
-  background-color: aqua;
+  background-color: transparent;
   height: 450px;
   width: 1440px;
   margin-top: 50px;
 }
-
+.toolsMain h1 {
+  display: inline-block;
+}
 .toolsHeading {
-  margin-left: 38%;
-  font-size: 55px;
+  display: block !important;
+  font-size: 30px;
+  color: rgb(48, 48, 48);
+
+  font-weight: 200;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.line {
+  background-color: red;
+  height: 2px;
+  width: 80px;
+  margin-left: 680px;
+}
+.aboutText {
+  margin-left: 280px;
+  text-align: center;
+  font-size: 15px;
+  margin-right: 280px;
+  color: grey;
+}
+.card1 {
+  margin-left: 50px;
+  display: inline-block !important;
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0.1px 0.2px 20px 0.001px rgb(199, 199, 199);
+  outline: grey;
+}
+.card1:hover {
+  transition: all 0.3s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.card1 h1 {
+  margin-top: 0px;
+  font-size: 25px;
+  display: flex;
+  padding-left: 50px;
+  background-color: rgb(200, 255, 200);
+}
+
+.card1 p {
+  width: 287px;
+}
+.card1 img {
+  height: 200px;
+  outline: none !important;
+}
+
+/* card 2 */
+.card2 {
+  margin-left: 50px;
+  display: inline-block !important;
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0.1px 0.2px 20px 0.001px rgb(199, 199, 199);
+  outline: grey;
+}
+.card2:hover {
+  transition: all 0.3s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.card2 h1 {
+  margin-top: 0px;
+  font-size: 25px;
+  display: flex;
+  padding-left: 50px;
+  background-color: rgb(200, 255, 200);
+}
+
+.card2 p {
+  width: 287px;
+}
+.card2 img {
+  height: 200px;
+  outline: none !important;
+}
+
+/* CARD 3 */
+.card3 {
+  margin-left: 50px;
+  display: inline-block !important;
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0.1px 0.2px 20px 0.001px rgb(199, 199, 199);
+  outline: grey;
+}
+.card3:hover {
+  transition: all 0.3s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.card3 h1 {
+  margin-top: 0px;
+  font-size: 25px;
+  display: flex;
+  padding-left: 50px;
+  background-color: rgb(200, 255, 200);
+}
+
+.card3 p {
+  width: 287px;
+}
+.card3 img {
+  height: 200px;
+
+  outline: none !important;
 }
 
 /*css for Schedule.js*/
