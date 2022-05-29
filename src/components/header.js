@@ -1,4 +1,5 @@
-import React from "react";
+import React , { Component }  from "react";
+import {Link} from 'react-scroll'
 import "../styles.css";
 function header() {
   return (
@@ -8,19 +9,19 @@ function header() {
       <div className="headButtons">
         <ul>
           <li>
-            <button>Home</button>
+          <Link activeClass="active" to="home" spy={true} smooth={true}><button>Home</button></Link> 
           </li>
           <li>
-            <button>About</button>
+          <Link activeClass="active" to="about" spy={true} smooth={true}><button>About</button></Link>
           </li>
           <li>
-            <button>Schedule</button>
+          <Link activeClass="active" to="schedule" spy={true} smooth={true}><button>Schedule</button></Link> 
           </li>
           <li>
-            <button>Live Classes</button>
+          <Link activeClass="active" to="sponsor" spy={true} smooth={true}><button>Donate</button></Link> 
           </li>
           <li>
-            <button>Notes</button>
+          <Link activeClass="active" to="contact" spy={true} smooth={true}><button>Contact Us</button></Link>
           </li>
         </ul>
       </div>

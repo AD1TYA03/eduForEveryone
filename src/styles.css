@@ -78,7 +78,7 @@
 .loginBtn2 {
   border-style: none;
   border-radius: 6px;
-  background-color: #ffd24c;
+  background-color: transparent;
   color: black;
   padding: 8px 15px 8px 15px;
   font-size: small;
@@ -322,10 +322,24 @@
 
 /*css for Schedule.js*/
 .scMain {
-  background-color: greenyellow;
+  background-color: transparent;
   height: 450px;
   width: 1440px;
-  margin-top: 50px;
+  margin-top: 100px;
+}
+.scContainer {
+  height: 310px;
+  background-color: rgb(240, 240, 240);
+  margin-top: 100px;
+  padding-bottom: 50px;
+  width: auto;
+  margin-left: 0px;
+
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+#root {
+  max-width: 1440px;
 }
 
 /* CSS FOR SPONSOR */
@@ -333,13 +347,15 @@
   margin-top: 70px;
   margin-left: 10px;
   margin-bottom: 100px;
+  display: block;
+  align-items: center;
 }
 .sponsorCards div {
-  display: inline;
+  display: inline-flex;
   padding-right: 30px;
 }
 .sponsorCards img {
-  height: 100px;
+  max-height: 100px;
   display: inline;
 }
 
@@ -349,7 +365,7 @@
   height: 400px;
   display: inline;
   margin-left: 500px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .cimg {
   display: flex;
@@ -357,7 +373,8 @@
 .contactMain button {
   height: 50px;
   font-weight: 400;
-
+  width: 200px;
+  display: inline;
   text-align: center;
   background-color: transparent;
   border-color: grey;
@@ -367,15 +384,101 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+#btn1 {
+  margin-left: 500px;
+}
 .contactMain button:hover {
   background-color: rgb(182, 88, 206);
   color: white;
   border-radius: 6px;
 }
 
-.contactBtn {
-  display: flex;
+.App {
+  min-width: 1440px !important;
+}
+
+#about {
+  padding-top: 90px;
+  margin-top: 80px;
+}
+#home {
+  padding-top: 100px;
+  margin-top: 50px;
+}
+#schedule {
+  padding-top: 100px;
+  margin-top: 100px;
+  padding-bottom: 80px;
+}
+#sponsor {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#contact {
+  padding-top: 120px;
+}
+
+.btnD {
+  height: 40px;
+  width: 80px;
+  font-size: 15px;
+  background-color: transparent;
+  border-radius: 6px;
+
+  margin-left: 50px !important;
+}
+.donateD {
+  align-items: center;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+.donateD img {
+  height: 40px;
+  align-content: center;
+}
+
+.btnD:hover {
+  background-color: rgb(182, 88, 206);
+  color: white;
+  border-radius: 6px;
+}
+
+.scCard {
+  margin-left: 40px;
+  margin-top: 30px;
+  box-shadow: 0.1px 0.2px 20px 0.001px rgb(41, 41, 41);
+  display: inline-block;
+}
+
+/* CSS FOR FOOTER */
+
+#footer {
+  height: 130px;
+  background-color: #1c1d1f;
+  border-top: 1px solid #3e4143;
+  margin-bottom: 0px;
+  width: 1440px;
+  margin-top: 100px;
+  flex-shrink: 0;
   text-align: center;
-  margin-left: 250px;
-  margin-top: 215px;
+  color: rgb(131, 131, 131);
+}
+#footer p {
+  margin-bottom: 5px !important;
+  margin-top: 8px;
+}
+#footer img {
+  height: 30px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+#footer img:hover {
+  height: 35px;
+}
+
+#f1 {
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }

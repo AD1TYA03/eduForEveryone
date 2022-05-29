@@ -1,9 +1,10 @@
 import React from "react";
 import Typical from "react-typical";
+import { Link } from "react-scroll";
 
 function intro() {
   return (
-    <div className="introMain">
+    <div className="introMain" id="home">
       <div className="intro2">
         <h1 className="tag1">Education</h1>
         <h1 className="tag2">
@@ -23,7 +24,9 @@ function intro() {
             wrapper="p"
           />
         </h1>
-        <button className="startBtn">START LEARNING</button>
+        <Link activeClass="active" to="schedule" spy={true} smooth={true}>
+          <button className="startBtn">START LEARNING</button>
+        </Link>
       </div>
     </div>
   );
