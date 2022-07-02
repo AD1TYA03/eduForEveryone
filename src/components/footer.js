@@ -3,7 +3,9 @@ function footer() {
   return (
     <div id="footer">
       <div id="f1">
-        <p>Designed and Developed with ❤️ by Aditya Kumar Singh</p>
+        <p>
+          Designed and Developed with <span>❤</span> by Aditya Kumar Singh
+        </p>
         <p>©2022 Geeks Arena</p>
       </div>
       <div id="f2">
