@@ -4,7 +4,7 @@ function footer() {
     <div id="footer">
       <div id="f1">
         <p>Designed and Developed with ❤️ by Aditya Kumar Singh</p>
-        <p>©2022 Team Karan</p>
+        <p>©2022 Geeks Arena</p>
       </div>
       <div id="f2">
         <a href="https://www.linkedin.com/in/aditya-singh-2139271ba/">

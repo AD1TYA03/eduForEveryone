@@ -3,7 +3,7 @@ import React,{useState} from "react";
 function Contact() {
   const [butn, currentButn] = useState(0);
 
-  if(butn==0)
+  if(butn===0)
   return (
     <div id="contact">
       <h2 className="toolsHeading">CONTACT US</h2>
@@ -23,6 +23,19 @@ function Contact() {
         </div>
       </div>
     </div>
+  );
+
+  if(butn===1)
+  return(
+<div>Hey It worked i am butn 1
+<button id="btn1" onClick={() => currentButn(0)}>Go Back</button>
+</div>
+  );
+  if(butn===2)
+  return(
+<div>Hey It worked i am butn 2
+<button id="btn1" onClick={() => currentButn(0)}>Go Back</button>
+</div>
   );
 }
 
