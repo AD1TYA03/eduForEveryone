@@ -12,3 +12,9 @@
 <img src="https://media.discordapp.net/attachments/979680432738172940/980509260851085372/Screenshot_186.png" alt="" height="200px"></img>
 
 <img src="https://img.shields.io/badge/Codesandbox-000000?style=for-the-badge&logo=CodeSandbox&logoColor=white">
+
+##CONTRIBUTION GUIDELINES
+
+Rules : 
+1. Do Not change the tech stack , keep everything in react.
+2. For any missing Asset make an issue, it will me provided.
