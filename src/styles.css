@@ -1,18 +1,13 @@
-/* custom properties */
-:root {
-  --section-width: 1440px;
-  --btn-color: #f9d923;
-}
-
 body {
   overflow-x: hidden;
 }
 
 .headerMain {
-  width: var(--section-width);
+  width: 1440px;
   height: 70px;
   background-color: #f6feff;
   opacity: 0.9;
+
   display: flex;
   align-items: center;
   box-shadow: 5px 4px 5px 0.1px grey;
@@ -30,7 +25,10 @@ body {
   display: inline-block;
   margin-top: 10px;
   font-size: 1.5em;
-  margin: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0em;
+  margin-inline-start: 10px;
+  margin-inline-end: 0px;
   text-align: center;
   font-size: 18px;
 }
@@ -49,10 +47,9 @@ body {
   background: transparent;
   display: inline;
   padding-left: 30px;
-  cursor: pointer;
 }
 .headButtons button:hover {
-  color: var(--btn-color);
+  color: #f9d923;
 }
 .headButtons button {
   border-style: none;
@@ -63,31 +60,39 @@ body {
 }
 .headButtons {
   margin-left: 350px;
+
   display: inline;
 }
-
-.loginBtn, .loginBtn2{
+.loginBtn {
   border-style: none;
   border-radius: 6px;
+  background-color: #ffd24c;
   color: black;
   padding: 8px 15px 8px 15px;
   font-size: small;
   display: inline;
+  margin-left: 100px;
   margin-top: 0px;
   box-shadow: 1px 1px 10px 2px gray;
 }
-
-.loginBtn {
-  background-color: #ffd24c;
-  margin-left: 100px;
+.loginBtn:hover {
+  color: white;
+  font-weight: bolder;
+  background-color: green;
 }
-
 .loginBtn2 {
+  border-style: none;
+  border-radius: 6px;
   background-color: transparent;
+  color: black;
+  padding: 8px 15px 8px 15px;
+  font-size: small;
+  display: inline;
   margin-left: 10px;
+  margin-top: 0px;
+  box-shadow: 1px 1px 10px 2px gray;
 }
-
-.loginBtn:hover, .loginBtn2:hover {
+.loginBtn2:hover {
   color: white;
   font-weight: bolder;
   background-color: green;
@@ -117,7 +122,7 @@ body {
   background-size: 1000px;
   display: flex;
   height: 700px;
-  width: var(--section-width);
+  width: 1440px;
   margin-top: 10px;
 }
 
@@ -159,7 +164,7 @@ body {
   height: 70px;
   width: 250px;
   border-radius: 8px;
-  background-color: var(--btn-color);
+  background-color: #f9d923;
   margin-left: 160px;
   margin-top: 20px;
 
@@ -210,7 +215,7 @@ body {
 .toolsMain {
   background-color: transparent;
   height: 450px;
-  width: var(--section-width);
+  width: 1440px;
   margin-top: 50px;
 }
 
@@ -240,18 +245,7 @@ body {
   margin-right: 280px;
   color: grey;
 }
-
- /* cards style */
-.card1 p, .card2 p, .card3 p {
-  width: 287px;
-}
-
-.card1 img, .card2 img, .card3 img {
-  height: 200px;
-  outline: none !important;
-}
-
-.card1, .card2, .card3 {
+.card1 {
   margin-left: 50px;
   display: inline-block !important;
   text-align: center;
@@ -259,16 +253,7 @@ body {
   box-shadow: 0.1px 0.2px 20px 0.001px rgb(199, 199, 199);
   outline: grey;
 }
-
-.card1 h1, .card2 h1, .card3 h1 {
-  margin-top: 0px;
-  font-size: 25px;
-  display: flex;
-  padding-left: 50px;
-  background-color: rgb(200, 255, 200);
-}
-
-.card1:hover, .card2:hover, .card3:hover {
+.card1:hover {
   transition: all 0.3s ease-in-out;
   transition-property: all;
   transition-duration: 0.3s;
@@ -276,12 +261,94 @@ body {
   transition-delay: 0s;
   background-color: rgb(200, 255, 200);
 }
+.card1 h1 {
+  margin-top: 0px;
+  font-size: 25px;
+  display: flex;
+  padding-left: 50px;
+  background-color: rgb(200, 255, 200);
+}
+
+.card1 p {
+  width: 287px;
+}
+.card1 img {
+  height: 200px;
+  outline: none !important;
+}
+
+/* card 2 */
+.card2 {
+  margin-left: 50px;
+  display: inline-block !important;
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0.1px 0.2px 20px 0.001px rgb(199, 199, 199);
+  outline: grey;
+}
+.card2:hover {
+  transition: all 0.3s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  background-color: rgb(200, 255, 200);
+}
+.card2 h1 {
+  margin-top: 0px;
+  font-size: 25px;
+  display: flex;
+  padding-left: 50px;
+  background-color: rgb(200, 255, 200);
+}
+
+.card2 p {
+  width: 287px;
+}
+.card2 img {
+  height: 200px;
+  outline: none !important;
+}
+
+/* CARD 3 */
+.card3 {
+  margin-left: 50px;
+  display: inline-block !important;
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0.1px 0.2px 20px 0.001px rgb(199, 199, 199);
+  outline: grey;
+}
+.card3:hover {
+  transition: all 0.3s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  background-color: rgb(200, 255, 200);
+}
+.card3 h1 {
+  margin-top: 0px;
+  font-size: 25px;
+  display: flex;
+  padding-left: 50px;
+  background-color: rgb(200, 255, 200);
+}
+
+.card3 p {
+  width: 287px;
+}
+.card3 img {
+  height: 200px;
+
+  outline: none !important;
+}
 
 /*css for Schedule.js*/
 .scMain {
   background-color: transparent;
   height: 450px;
-  width: var(--section-width);
+  width: 1440px;
   margin-top: 100px;
 }
 .scContainer {
@@ -296,7 +363,7 @@ body {
   scroll-behavior: smooth;
 }
 #root {
-  max-width: var(--section-width);
+  max-width: 1440px;
 }
 
 /* CSS FOR SPONSOR */
@@ -351,7 +418,7 @@ body {
 }
 
 .App {
-  min-width: var(--section-width) !important;
+  min-width: 1440px !important;
 }
 
 #about {
@@ -415,7 +482,7 @@ body {
   background-color: #1c1d1f;
   border-top: 1px solid #3e4143;
   margin-bottom: 0px;
-  width: var(--section-width);
+  width: 1440px;
   margin-top: 100px;
   flex-shrink: 0;
   text-align: center;
@@ -438,4 +505,7 @@ body {
   display: block;
   padding-bottom: 10px;
   padding-top: 10px;
+}
+
+.karan {
 }
